@@ -7,12 +7,16 @@
 #include <stdio.h>
 #include <string>
 
-#include <SDL/SDL.h>
-#include "SDL/SDL_image.h"
-#include "SDL/SDL_ttf.h"
-#include "SDL/SDL_mixer.h"
+#include "Game.h"
 
 int main ( int argc, char** argv )
 {
+    Game *game;
+    game = new Game();
 
+    //Wait 2 seconds
+    SDL_Delay( 2000 );
+
+
+    return 0;
 }

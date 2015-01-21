@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1421871778 source:/home/lucas/Documents/Projetos/SickFighters/main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	"Game.h"
+
+1421864858 /home/lucas/Documents/Projetos/SickFighters/image_handler.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+
+1421872534 /home/lucas/Documents/Projetos/SickFighters/include/Game.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+
+1421872518 source:/home/lucas/Documents/Projetos/SickFighters/src/Game.cpp
+	"Game.h"
+	<SDL/SDL.h>
+
